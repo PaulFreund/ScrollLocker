@@ -10,6 +10,8 @@
     <IncrementalLinking>true</IncrementalLinking>
     <PreferOneStepBuild>true</PreferOneStepBuild>
     <Compiler>DMD2</Compiler>
+    <Description>Standalone Windows application writte in D that locks keyboard and mouse when scroll lock is enabled.</Description>
+    <ReleaseVersion>1.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

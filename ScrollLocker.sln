@@ -27,5 +27,7 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = ScrollLocker\ScrollLocker.dproj
+		description = Standalone Windows application writte in D that locks keyboard and mouse when scroll lock is enabled
+		version = 1.0
 	EndGlobalSection
 EndGlobal

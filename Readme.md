@@ -4,16 +4,19 @@ Standalone Windows application writte in D that locks keyboard and mouse when sc
 
 ## Features 
 
-* Locks keyboard and mouse with one key
+* Locks/Unlocks keyboard and mouse with only the scroll lock key (between print and pause)
+* The scroll lock key is stateful so you have a light on your keyboard when active
+* ScrollLocker can be killed from everywhere with STRG+ALT+SHIFT+Q 
 * Tray icon shows the application is running
-* ScrollLocker can be killed with hotkey (STRG+ALT+SHIFT+Q by default)
 * Keys can be easily customized in code
 
-## Installation
+## Download and Instalation
 
-The application does not need to be installed. To run it everytime you start the computer just copy or link it in the "Startup" folder of your start menu.
+You can either download a [precompiled stanalone .exe](https://github.com/PaulFreund/ScrollLocker/releases) from my Github relases or compile the source code yourself (see additional notes).
 
-## Notes
+ScrollLocker doesn't need to be installed, just execute the exe. To run it on startup, just copy or link it in the "Startup" folder of your start menu.
+
+## Additional Notes
 
 * The project was created with Xamarin Studio with D/DMD2 and the ResourceCompiler installed
 * It is very easy to modify main.d to change the quit or lock(toggle) key
