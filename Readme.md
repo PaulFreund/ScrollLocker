@@ -12,7 +12,7 @@ Standalone Windows application writte in D that locks keyboard and mouse when sc
 
 ## Download and Instalation
 
-You can either download a [precompiled stanalone .exe](https://github.com/PaulFreund/ScrollLocker/releases) from my Github relases or compile the source code yourself (see additional notes).
+You can either download a [precompiled standalone .exe](https://github.com/PaulFreund/ScrollLocker/releases) from my Github relases or compile the source code yourself (see additional notes).
 
 ScrollLocker doesn't need to be installed, just execute the exe. To run it on startup, just copy or link it in the "Startup" folder of your start menu.
 
